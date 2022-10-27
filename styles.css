@@ -18,10 +18,7 @@ background: linear-gradient(0deg, rgba(224,217,211,1) 0%, rgba(190,142,120,1) 10
     width: 200px;
 }
 .coffeeshop{
-
-    left: 170px;
-    top: 10px;
-    font-size: xxx-large;
+    font-size: 3.5em;
     font-style: oblique;
     font-family: fantasy;
     color: #e0d9d3;
@@ -31,14 +28,19 @@ background: linear-gradient(0deg, rgba(224,217,211,1) 0%, rgba(190,142,120,1) 10
 padding-top: 37px;
 color:#e0d9d3
 }
+
 .menu{
     color: #e0d9d3;
     text-decoration: none;
     font-family: fantasy;
-    padding: 10px 20px 10px 20px;
-    font-size: x-large
+    padding: 2px 30px 2px 30px;
+    font-size: x-large;
+    border-radius: 10px;
 }
-
+.menu:hover{
+    background-color: palevioletred;
+    color: rgba(140, 62, 62, 0.871)
+}
 .foto{
     width: 180px;
     
@@ -63,22 +65,26 @@ color:#e0d9d3
     display: flex;
     align-items: center;
 }
-.mes{
-   
-}
 .galery{
     display: flex;
 }
 .wdt33{
     width: 33%;
+    padding-left: left 35px;
 }
 .boton{
     margin-top: 40px;
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 8px;
     color: brown;
+}
+.boton:hover{
+    background-color: palevioletred;
+    color: white
+
 }
 .promo{
     display: flex;
     align-items: center;
+    padding-left: 230px;
 }
