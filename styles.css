@@ -13,6 +13,7 @@ background: linear-gradient(0deg, rgba(224,217,211,1) 0%, rgba(190,142,120,1) 10
 .contenedor{
     display: flex;
     background: #be8e78;
+
 }
 .logo{
     width: 200px;
