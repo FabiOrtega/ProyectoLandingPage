@@ -1,5 +1,5 @@
 *{
-    margin: 0px;
+    margin: auto;
     padding: 0px;
     box-sizing: border-box;
     color: brown
@@ -87,5 +87,15 @@ color:#e0d9d3
 .promo{
     display: flex;
     align-items: center;
-    padding-left: 230px;
+    flex-direction: column;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+}
+recetario{
+    padding-left: 25px;
 }
