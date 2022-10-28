@@ -1,0 +1,16 @@
+.contenedor{
+    background-color: blue;
+}
+.galery{
+    flex-direction: column;
+}
+.wrap{
+    width: 100%;
+}
+.contenedor>.wdt33:first-child{
+    display:none
+}
+
+.wdt33{
+    width: 45%;
+}
