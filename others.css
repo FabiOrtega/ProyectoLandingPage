@@ -1,0 +1,13 @@
+.contenedor{
+    background-color: aliceblue;
+}
+.prm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
